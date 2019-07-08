@@ -5,5 +5,104 @@
 <meta charset="utf-8">
 </head>
 <body>
+	<h1>ゆうとクラブ</h1>
+	<h2>目的</h2>
+	<ul>
+		<li>同じ哲学を共有し、強い<ruby>絆<rt>きずな</rt></ruby>で結ばれた集団を作る</li>
+		<li>基金をつくり学習の妨げになるものを<ruby>排除<rt>はいじょ</rt></ruby>します。</li>	
+		<li><ruby>矜持<rt>きょうじ</rt></ruby>を持って社会に<ruby>貢献<rt>こうけん</rt></ruby>します。</li>
+	</ul>
+	<h2>方針</h2>
+	<ul>
+		<li>Vimをテキストエディタとします。会員は、Emacsの<ruby>流布<rt>るふ</rt></ruby>を禁止します。</li>
+		<li>学習のためにArch Linuxを使います。</li>
+		<li>特別の事情がない限りソースコードや知識は秘密にしません。</li>
+		<li>理由がない限りデータをプレインテキストで保持します。</li>
+		<li>UNIX哲学を尊重します。</li>
+		<li>アジャイルソフトウェア開発宣言を尊重します。</li>
+	</ul>
+	<h2>入会条件</h2>
+	<ol>
+		<li>自分のパソコンをもっていること。</li>
+		<li>下記のいずれかで音声通話でコミュニケーションできること。</li>
+		<ul>
+			<li>Skype</li>
+			<li>Discord</li>
+			<li>Slack</li>
+			<li>Signal</li>
+		</ul>
+		<li>音声通話で面接官の面接を受けること</li>
+		<li>ゆうとクラブの宣誓をすること。</li>
+	</ol>
+	<h2>本会が重視すること</h2>
+	<table border="1">
+		<tr>
+			<th>位置づけ</th>
+			<th>OS</th>
+			<th>テキストエディタ</th>
+			<th>プログラミング言語</th>
+		</tr>
+		<tr>
+			<th>重視</th>
+			<td>Arch Linux, NixOS</td>
+			<td>Vim</td>
+			<td>C言語, JavaScript, Haskell, F#, Scala</td>
+		</tr>
+		<tr>
+			<th>普通</th>
+			<td>Windows, macOS</td>
+			<td>-</td>
+			<td>C++, Scheme, PHP</td>
+		</tr>
+		<tr>
+			<th>禁止</th>
+			<td>特になし</td>
+			<td>Emacs</td>
+			<td>VB, Ruby</td>
+		</tr>
+
+	</table>
+	<h2>入会に関する手続き</h2>
+	<p>入会を希望される方は、以下のフォームからお申込みください。
+	お申込みいただいた後、面接と当会からの入会判断を経て正式に会員扱いとなります。
+	</p>
+	<form name="contact" method="POST" data-netlify="true">
+		<p>
+			<label>メールアドレス:
+				<input type="email" name="email"/>
+			</label>
+		</p>
+
+		<p>
+			<label>本名:
+				<input type="text" id="name" name="name"/>
+			</label>
+		</p>
+
+		<p>
+			<fieldset> 
+				<legend>性別</legend>
+				<label><input type="radio" name="sex" value="male">男</label>
+				<label><input type="radio" name="sex" value="female">女</label>
+			</fieldset>
+		</p>
+		
+		<p>
+			<label>生年月日:
+				<input type="date" name="birthday" min="1960-01-01" max="2000-12-31"/>	
+			</label>
+		</p>
+
+		<p>
+			<label>現在の住所:
+				<textarea name="address"></textarea>
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="送信" />	
+		</p>
+	</form>
+
+
 </body>
 </html>
