@@ -77,13 +77,13 @@
 	<form name="contact" method="POST" data-netlify="true">
 		<p>
 			<label>メールアドレス:
-				<input type="email" name="email"/>
+				<input type="email" name="email" required/>
 			</label>
 		</p>
 
 		<p>
         <label><ruby>本名<rt>ほんみょう</rt></ruby>:
-				<input type="text" id="name" name="name"/>
+				<input type="text" id="name" name="name"required/>
 			</label>
 		</p>
 
@@ -97,13 +97,13 @@
 		
 		<p>
         <label><ruby>生年月日<rt>せいねんがっぴ</rt></ruby>:
-				<input type="date" name="birthday" min="1960-01-01" max="2019-12-31"/>	
+				<input type="date" name="birthday" min="1960-01-01" max="2019-12-31" required/>	
 			</label>
 		</p>
 
 		<p>
         <label><ruby>現在<rt>げんざい</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>:
-				<textarea name="address"></textarea>
+				<textarea name="address"required></textarea>
 			</label>
 		</p>
         <p>
@@ -117,7 +117,7 @@
         </p>
         <p>
         <label><ruby>希望<rt>きぼう</rt></ruby>の<ruby>音声通話<rt>おんせいつうわ</rt></ruby>ソフトのID
-        <input type="text" name="messengerid" />
+        <input type="text" name="messengerid"required />
         </label>
         </p>
 		<p>
