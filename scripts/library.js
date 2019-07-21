@@ -1,12 +1,7 @@
-//1.DOMの読み込みが完了したとき、検索ボタンのクリックハンドラを追加する
-//2.検索ボタンのクリックハンドラで、キーワードに部分一致する書籍のみを表示
-//3．どれも一致しない場合は、エラーメッセージを出す
 window.onload = function() {
     var button=document.getElementById("search");
     button.onclick=func;
 
-   /* var a = f;
-    a(); // === f()*/
         
 }
 
