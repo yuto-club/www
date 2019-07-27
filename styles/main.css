@@ -1,0 +1,68 @@
+body{
+background-image: linear-gradient(to right top, #dae9ef, #c9e1eb, #b7d9e6, #a5d0e2, #92c8de);
+}
+header {
+    background: #334D6D;
+    color: white;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display:flex;
+}
+
+.container h1{
+    flex:1;
+}
+.container button{
+    width: 150px;
+    height: 50px;
+    margin:auto 0;
+}
+main{
+    margin-top:60px;
+    background:#FFFFFF;
+    flex:3;
+    z-index:2;
+    padding : 30px;
+}
+main h2{
+    margin:-70px 0px;
+    padding: 20px;
+    width:40%;
+    height:40px;
+    background-color:#FCD297;
+    color:#FFFFFF;
+    font-size:40px;
+    text-shadow:2px 3px 0px #898999;
+}
+#menu{
+    margin-top: 90px;
+    background-color:white;
+    border:1px solid black;
+    padding-left:20px;
+    font-size:30px;
+}
+#menu li{
+    list-style:none;
+    font-size:30px;
+    padding:4px;
+    color: #A78D8A;
+}
+h3 {
+  color:　black ;/*文字色*/
+  text-shadow:2px 3px 0px #898999;
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+ background:linear-gradient(transparent 30%, #FCD297 90%);
+}
+
+
+ 
+
+
+
+
+
+
+
