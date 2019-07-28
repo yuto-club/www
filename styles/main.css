@@ -1,5 +1,10 @@
 body{
-background-image: linear-gradient(to right top, #dae9ef, #c9e1eb, #b7d9e6, #a5d0e2, #92c8de);
+    background-image: linear-gradient(to right top, #dae9ef, #c9e1eb, #b7d9e6, #a5d0e2, #92c8de);
+    position: relative;
+    width:100%;
+    height:auto !important;
+    height:100%;
+    min-height:100%;
 }
 header {
     background: #334D6D;
@@ -108,8 +113,10 @@ rt {
   left: 40px;
 }
 footer {
-    margin-top:60px;
-  background: #334D6D;
+    min-height: 50vh;
+    margin-top: 60px;
+    background: #334D6D;
+  
 }
 footer ul{
     width: 100%;
