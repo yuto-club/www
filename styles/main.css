@@ -124,4 +124,39 @@ footer ul li a{
 .ruby-toggle{
     color:white;
 }
+.search {
+  margin-top:60px;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
 
+.searchTerm {
+  width: 50%;
+  border: 3px solid #7BC3AC;
+  border-right: none;
+  padding: 5px;
+  height: 29px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 70px;
+  height: 45px;
+  border: 1px solid #7BC3AC;
+  background: #7BC3AC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+table{
+    margin-top: 10px;
+}
