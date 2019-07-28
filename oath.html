@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ゆうとクラブの宣誓</title>
+<title>ゆうとクラブ</title>
 <meta charset="utf-8">
+<script type="text/javascript" src="scripts/index.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-    <h1>ゆうとクラブの<ruby>宣誓<rt>せんせい</rt></ruby></h1>
-    <p>わたしは、ゆうとクラブ(<ruby>以下<rt>いか</rt></ruby>、<ruby>会<rt>かい</rt></ruby>とする。)に<ruby>入会<rt>にゅうかい</rt></ruby>するにあたって<ruby>次<rt>つぎ</rt></ruby>のことを<ruby>誓<rt>ちか</rt></ruby>います。</p>
-<ul>
-    <li><ruby>会<rt>かい</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>・<ruby>指示<rt>しじ</rt></ruby>を<ruby>至上<rt>しじょう</rt></ruby>とします。</li>
-    <li><ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>習得<rt>しゅうとく</rt></ruby>するために、<ruby>手段<rt>しゅだん</rt></ruby>を<ruby>問<rt>と</rt></ruby>わず<ruby>努力<rt>どりょく</rt></ruby>を<ruby>惜<rt>お</rt></ruby>しみません。</li>
-    <li>この<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれた<ruby>師<rt>し</rt></ruby>を<ruby>実<rt>じつ</rt></ruby>の<ruby>親<rt>おや</rt></ruby>のように<ruby>敬<rt>うやま</rt></ruby>い、<ruby>自<rt>みずか</rt></ruby>らの<ruby>財産<rt>ざいさん</rt></ruby>を<ruby>分<rt>わ</rt></ruby>け<ruby>与<rt>あた</rt></ruby>えて、<ruby>必要<rt>ひつよう</rt></ruby>あるときには<ruby>助<rt>たす</rt></ruby>けます。</li>
-    <li><ruby>会員<rt>かいいん</rt></ruby>を<ruby>自身<rt>じしん</rt></ruby>の<ruby>兄弟<rt>きょうだい</rt></ruby>のように<ruby>見<rt>み</rt></ruby>て、<ruby>彼<rt>かれ</rt></ruby>らが<ruby>学<rt>まな</rt></ruby>ばんとすれば<ruby>報酬<rt>ほうしゅう</rt></ruby>なしに<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えます。</li>
-    <li><ruby>師<rt>し</rt></ruby>が<ruby>認<rt>みと</rt></ruby>めない<ruby>相手<rt>あいて</rt></ruby>と<ruby>恋愛<rt>れんあい</rt></ruby>しないことを<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れます。</li>
-    <li>インターネット、<ruby>口伝<rt>くでん</rt></ruby>その<ruby>他<rt>た</rt></ruby>あらゆる<ruby>方法<rt>ほうほう</rt></ruby>で、<ruby>知識<rt>ちしき</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>します。</li>
-</ul>
+    <header>
+        <div class="container">
+            <h1>ゆうとクラブ</h1>
+            <div class="ruby-toggle">
+                <div class="toggle-switch">
+                    <input id="toggle" class="toggle-input" type='checkbox' onclick="document.body.classList.toggle( 'ruby_flag' );"  />
+                    <label for="toggle" class="toggle-label" />
+                </div>
+                ふりがな
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <h2>ゆうとクラブの<ruby>宣誓<rt>せんせい</rt></ruby></h2>
+            <p>わたしは、ゆうとクラブ(<ruby>以下<rt>いか</rt></ruby>、<ruby>会<rt>かい</rt></ruby>とする。)に<ruby>入会<rt>にゅうかい</rt></ruby>するにあたって<ruby>次<rt>つぎ</rt></ruby>のことを<ruby>誓<rt>ちか</rt></ruby>います。</p>
+            <ul>
+                <li><ruby>会<rt>かい</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>・<ruby>指示<rt>しじ</rt></ruby>を<ruby>至上<rt>しじょう</rt></ruby>とします。</li>
+                <li><ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>習得<rt>しゅうとく</rt></ruby>するために、<ruby>手段<rt>しゅだん</rt></ruby>を<ruby>問<rt>と</rt></ruby>わず<ruby>努力<rt>どりょく</rt></ruby>を<ruby>惜<rt>お</rt></ruby>しみません。</li>
+                <li>この<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてくれた<ruby>師<rt>し</rt></ruby>を<ruby>実<rt>じつ</rt></ruby>の<ruby>親<rt>おや</rt></ruby>のように<ruby>敬<rt>うやま</rt></ruby>い、<ruby>自<rt>みずか</rt></ruby>らの<ruby>財産<rt>ざいさん</rt></ruby>を<ruby>分<rt>わ</rt></ruby>け<ruby>与<rt>あた</rt></ruby>えて、<ruby>必要<rt>ひつよう</rt></ruby>あるときには<ruby>助<rt>たす</rt></ruby>けます。</li>
+                <li><ruby>会員<rt>かいいん</rt></ruby>を<ruby>自身<rt>じしん</rt></ruby>の<ruby>兄弟<rt>きょうだい</rt></ruby>のように<ruby>見<rt>み</rt></ruby>て、<ruby>彼<rt>かれ</rt></ruby>らが<ruby>学<rt>まな</rt></ruby>ばんとすれば<ruby>報酬<rt>ほうしゅう</rt></ruby>なしに<ruby>技術<rt>ぎじゅつ</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えます。</li>
+                <li><ruby>師<rt>し</rt></ruby>が<ruby>認<rt>みと</rt></ruby>めない<ruby>相手<rt>あいて</rt></ruby>と<ruby>恋愛<rt>れんあい</rt></ruby>しないことを<ruby>受<rt>う</rt></ruby>け<ruby>入<rt>い</rt></ruby>れます。</li>
+                <li>インターネット、<ruby>口伝<rt>くでん</rt></ruby>その<ruby>他<rt>た</rt></ruby>あらゆる<ruby>方法<rt>ほうほう</rt></ruby>で、<ruby>知識<rt>ちしき</rt></ruby>を<ruby>公開<rt>こうかい</rt></ruby>します。</li>
+            </ul>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#menu">トップ</a></li>
+                <li><a href="oath.html">宣誓</a></li>
+                <li><a href="joinus.html">入会案内</a></li>
+                <li><a href="library.html">図書館</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
+</html>
