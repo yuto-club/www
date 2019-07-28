@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ゆうとクラブ</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="scripts/index.js"></script>
+<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ゆうとクラブ</h1>
+            <div class="ruby-toggle">
+                <div class="toggle-switch">
+                    <input id="toggle" class="toggle-input" type='checkbox' onclick="document.body.classList.toggle( 'ruby_flag' );"  />
+                    <label for="toggle" class="toggle-label" />
+                </div>
+                ふりがな
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <h2>入会案内</h2>
+            <h3 id="Admission conditions"><ruby>入会条件<rt>にゅうかいじょうけん</rt></ruby></h3>
+            <ol>
+                <li><ruby>自分<rt>じぶん</rt></ruby>のパソコンをもっていること。</li>
+                <li><ruby>下記<rt>かき</rt></ruby>のいずれかで<ruby>音声通話<rt>おんせいつうわ</rt></ruby>でコミュニケーションできること。</li>
+                <ul>
+                    <li>Skype   <a href="https://www.skype.com/ja/get-skype/" target="_brank">ダウンロード</a></li>
+                    <li>Discord <a href="https://discordapp.com/download"  target="_brank">ダウンロード</a></li>
+                    <li>Slack   <a href="https://slack.com/intl/ja-jp/download"  target="_brank">ダウンロード</a></li>
+                    <li>Signal  <a href="https://signal.org/ja/"  target="_brank">ダウンロード</a></li>
+
+                </ul>
+                <li><ruby>音声通話<rt>おんせいつうわ</rt></ruby>で<ruby>面接官<rt>めんせつかん</rt></ruby>の<ruby>面接<rt>めんせつ</rt></ruby>を<ruby>受<rt>う</rt></ruby>けること。</li>
+                <li><a href="oath.html" target="_blank">ゆうとクラブの宣誓</a>をすること。</li>
+            </ol>
+            <h3 id="procedure"><ruby>入会<rt>にゅうかい</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>手続<rt>てつづ</rt></ruby>き</h3>
+            <p><ruby>入会<rt>にゅうかい</rt></ruby>を<ruby>希望<rt>きぼう</rt></ruby>される<ruby>方<rt>かた</rt></ruby>は、<ruby>以下<rt>いか</rt></ruby>のフォームからお<ruby>申込<rt>もうしこ</rt></ruby>みください。
+            お<ruby>申込<rt>もうしこ</rt></ruby>みいただいた<ruby>後<rt>あと</rt></ruby>、<ruby>面接<rt>めんせつ</rt></ruby>と<ruby>当会<rt>とうかい</rt></ruby>からの<ruby>入会判断<rt>にゅうかいはんだん</rt></ruby>を<ruby>経<rt>へ</rt></ruby>て<ruby>正式<rt>せいしき</rt></ruby>に<ruby>会員扱<rt>かいいんあつか</rt></ruby>いとなります。
+            </p>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                <label>メールアドレス:
+                    <input type="email" name="email" required/>
+                </label>
+                </p>
+
+                <p>
+                <label><ruby>本名<rt>ほんみょう</rt></ruby>:
+                    <input type="text" id="name" name="name"required/>
+                </label>
+                </p>
+
+                <p>
+                <fieldset> 
+                    <legend><ruby>性別<rt>せいべつ</rt></ruby></legend>
+                    <label><input type="radio" name="sex" value="male"><ruby>男<rt>おとこ</rt></ruby></label>
+                    <label><input type="radio" name="sex" value="female"><ruby>女<rt>おんな</rt></ruby></label>
+                </fieldset>
+                </p>
+
+                <p>
+                <label><ruby>生年月日<rt>せいねんがっぴ</rt></ruby>:
+                    <input type="date" name="birthday" min="1960-01-01" max="2019-12-31" required/>	
+                </label>
+                </p>
+
+                <p>
+                <label><ruby>現在<rt>げんざい</rt></ruby>の<ruby>住所<rt>じゅうしょ</rt></ruby>:
+                    <textarea name="address"required></textarea>
+                </label>
+                </p>
+                <p>
+                <fieldset>
+                    <legend><ruby>希望<rt>きぼう</rt></ruby>の<ruby>音声通話<rt>おんせいつうわ</rt></ruby>ソフト</legend>
+                    <label><input type="radio" name="messenger" value="skype">Skype</label>
+                    <label><input type="radio" name="messenger" value="discord">Discord</label>
+                    <label><input type="radio" name="messenger" value="slack">Slack</label>
+                    <label><input type="radio" name="messenger" value="signal">Signal</label>
+                </fieldset>
+                </p>
+                <p>
+                <label><ruby>希望<rt>きぼう</rt></ruby>の<ruby>音声通話<rt>おんせいつうわ</rt></ruby>ソフトのID
+                    <input type="text" name="messengerid"required />
+                </label>
+                </p>
+                <p>
+                <input type="submit" value="送信" />	
+                </p>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="oath.html">宣誓</a></li>
+                <li><a href="joinus.html">入会案内</a></li>
+                <li><a href="library.html">図書館</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

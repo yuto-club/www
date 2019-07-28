@@ -32,6 +32,7 @@ main{
 }
 main h2{
     margin:-70px 0px;
+    margin-bottom: 30px;
     padding: 20px;
     width:40%;
     height:40px;
@@ -41,7 +42,6 @@ main h2{
     text-shadow:2px 3px 0px #898999;
 }
 #menu{
-    margin-top: 90px;
     background-color:white;
     border:1px solid black;
     padding-left:20px;
