@@ -106,3 +106,18 @@ rt {
 .toggle-input:checked + .toggle-label:after {
   left: 40px;
 }
+footer {
+    margin-top:60px;
+  background: #334D6D;
+}
+footer ul{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+}
+
+footer ul li a{
+  color:white;
+}
+
