@@ -113,7 +113,7 @@ rt {
   left: 40px;
 }
 footer {
-    min-height: 50vh;
+    min-height: 400px;
     margin-top: 60px;
     background: #334D6D;
   
@@ -167,3 +167,56 @@ footer ul li a{
 table{
     margin-top: 10px;
 }
+form{
+  width:460px;
+  margin:0 auto;
+}
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+  display:flex;
+  align-items:center;
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width:155px;
+  border-left: solid 3px #e0505d;
+  padding-left: 10px;
+}
+.inputs{
+  float: left;
+  width:80%;
+}
+form input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+}
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+  height: 160px;
+  font-size: 15px;
+}
+.btn-area{
+  text-align: center;
+}
+form input[type="submit"]{
+  background: #e0505c;
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 20px;
+  margin: 30px 250px;
+  width:50%;
+}
+
+.inputs label {
+    margin-left:10px;
+    margin-right:10px;
+}
+
