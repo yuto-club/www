@@ -113,7 +113,7 @@ rt {
   left: 40px;
 }
 footer {
-    min-height: 400px;
+    min-height: 300px;
     margin-top: 60px;
     background: #334D6D;
   
@@ -227,5 +227,25 @@ form input[type="submit"]{
     display:flex;
     padding-left: 0px;
     justify-content:space-between;
+    align-items: center;
+}
+
+.social-links {
+    height: 120px;
+}
+.social-links li {
+    margin: 0 auto;
+}
+
+.github-link{
+    color:white;
+}
+.oath-contents ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.oath-contents li{
+   margin-top:10px; 
+   font-size:25px;
 }
 
